@@ -4,7 +4,7 @@ const app = require("./app");
 // console.log(app.y);
 // console.log(app.z());
 
-const arr = [8, 12, 7, 6, 23, 9, 6];
+const arr = [8, 12, 7, 6, 23, 9, 6, 78];
 let result = arr.filter((item) => {
   return item > 6;
 });
